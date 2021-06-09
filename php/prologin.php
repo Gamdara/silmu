@@ -9,7 +9,7 @@ $param = [
     "pass" => $Password
 ];
 
-$req = post_request('http://localhost:8080/login',$param);
+$req = post_request('https://sinarilmu-api.herokuapp.com/login',$param);
 
 if(!empty($req)){
     $data = json_decode($req, true);
