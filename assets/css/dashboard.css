@@ -1,0 +1,26 @@
+body {
+  /* padding: 20px; */
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #652b19;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 0 !important;
+  margin: 0 !important;
+}
+
+a {
+  color: white;
+}
+
+.sidebar {
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background: #5f370e;
+}
